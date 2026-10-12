@@ -23,10 +23,3 @@ hl.window_rule({
     float  = true,
     center = true,
 })
-
--- blur the wallpaper behind the floating glass waybar for a real glass effect
-hl.layer_rule({
-    name  = "blur-waybar",
-    match = { namespace = "waybar" },
-    blur  = true,
-})
